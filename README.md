@@ -1,5 +1,7 @@
 # Custom Actions checkout
 
+> **Note:** This is a [template repository](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template), just click the "Use this template" button to get started.
+
 An example checkout (client and server) for integrating Braintree [Custom Actions](https://github.com/braintree/custom-actions-docs).
 
 Before starting, familiarize yourself with both [Custom Actions](https://github.com/braintree/custom-actions-docs) and [getting started with Braintree](https://developers.braintreepayments.com/start/overview).
