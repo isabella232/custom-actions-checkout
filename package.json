@@ -5,7 +5,7 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "start:client": "parcel client/src/index.html -p 3411",
+    "start:client": "parcel client/index.html -p 3411",
     "start": "concurrently -n client,server -c cyan,magenta \"nodemon server.js\" \"npm run start:client\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "fmt": "prettier --write '**/*.{css,html,json,js}'"
