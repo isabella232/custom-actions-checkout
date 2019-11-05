@@ -1,0 +1,34 @@
+{
+  "name": "custom-actions-checkout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start:client": "parcel client/src/index.html -p 3411",
+    "start": "concurrently -n client,server -c cyan,magenta \"nodemon server.js\" \"npm run start:client\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fmt": "prettier --write '**/*.{css,html,json,js}'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "braintree": "^2.19.0",
+    "braintree-web": "^3.55.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  },
+  "browserslist": [
+    "last 1 Chrome version",
+    "last 1 Firefox version"
+  ],
+  "devDependencies": {
+    "concurrently": "^5.0.0",
+    "nodemon": "^1.19.4",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^1.18.2"
+  }
+}
